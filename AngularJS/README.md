@@ -13,8 +13,11 @@ so,how to deleviry the 3 parameter to the 'app';
 ### Question 2:
 attention:
 at the version 1.2.13 declare a controller like 
+
 **error**
+
 <html ng-app>
+
 ```
 <!DOCTYPE html>
 <html ng-app>
@@ -46,9 +49,13 @@ at the version 1.2.13 declare a controller like
     <script src="app.js"></script>
 </html>
 ```
+
 if the code like above,when I run the file there will occured an error!
+
 **right**
+
 <html ng-app="MyApp">
+
 ```
 <!DOCTYPE html>
 <html ng-app="MyApp">
@@ -77,6 +84,6 @@ if the code like above,when I run the file there will occured an error!
             updateClock();
         });
     </script>
-    
 </html>
+
 ```
