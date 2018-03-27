@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+    <head>
+        <title>Data Binding</title>
+        <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+        
+    </head>
+    <body>
+        <input ng-model="name" type="text" placeholder="Your name">
+        <h1>Hello {{ name }}</h1>
+        <div ng-controller="MyController">
+            <h2>下面时间每个一秒刷新一次：</h2>
+            <h3>{{ clock }}</h3>
+        </div>
+    </body>
+    <script type="text/javascript" src="app.js"></script>
+    
+</html>
