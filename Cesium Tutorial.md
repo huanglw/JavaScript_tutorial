@@ -13,5 +13,8 @@ Cesium支持GLTF的3D数据格式，所以如果我们拿到的初始数据是3D
 尝试直接把.max的文件用3ds Max软件直接导出成.obj文件，然后用工具吧.obj文件转换成.gltl文件。但是导入到cesium的时候没有效果
 有可能是原始文件有问题
 
+### 2、下载OpenCOLLADA到处.dae的插件
+下载地址：https://github.com/KhronosGroup/OpenCOLLADA/releases
+
 ### 2、.max--.obj--.dae--.gltf
 下载转换工具ColladaToGltf.exe(地址：https://github.com/KhronosGroup/COLLADA2GLTF/releases)
