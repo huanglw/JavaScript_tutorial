@@ -16,5 +16,9 @@ Cesium支持GLTF的3D数据格式，所以如果我们拿到的初始数据是3D
 ### 2、下载OpenCOLLADA到处.dae的插件
 下载地址：https://github.com/KhronosGroup/OpenCOLLADA/releases
 
-### 2、.max--.obj--.dae--.gltf
+### 3、.max--.obj--.dae--.gltf
 下载转换工具ColladaToGltf.exe(地址：https://github.com/KhronosGroup/COLLADA2GLTF/releases)
+
+### 4、验证数据是否有问题
+**使用3d max自己画一个茶壶，导出teaPot.obj，然后导入teaPot，再导出未teaPot.DAE**    
+使用转换工具把.dae文件转换成.gltf文件，用cesium进行加载，数据加载正常，没有问题。
